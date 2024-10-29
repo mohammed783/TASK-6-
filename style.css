@@ -1,0 +1,177 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body{
+    background-color: rgb(243 242 236) !important;
+}
+button{
+    background-color:hsl(46.67deg 20% 91.18%);
+}
+ nav{
+    border-color:gray !important;
+    background-color: rgb(243 242 236) !important;
+    position: sticky !important;
+ }
+ nav ul .active{
+    color: rgb(220 184 160) !important;
+}  
+/* ///////////////// */
+.hero .carousel-item h2{
+    font-size: 50px !important ; 
+}
+.hero .carousel-item button{
+ border: solid 1px  rgb(220 184 160) !important;
+ color:#a65e30 !important ;
+ background-color: rgb(243 242 236);
+ height: 30px;
+}
+.hero{
+    height: calc(100vh - 73.6px);
+}
+@media (max-width:992px) {
+    .hero .row{
+        flex-direction: column-reverse;
+    }
+    .hero{
+        height: 1000px;
+    }
+}
+.carousel-control-next .fa-arrow-right , 
+.carousel-control-prev .fa-arrow-left{
+    color: rgb(42, 41, 41) ; 
+    border:2px solid rgb(0, 0, 0) !important;
+}
+
+/* ////// */
+.sec2{
+    background-color:hsl(46.67deg 20% 91.18%);
+}
+/* //// */
+.compo{
+    position: relative !important;
+}
+.compo .befor{
+    width: 35%;
+    height: .5px;
+    background-color: gray;
+    position: absolute !important;
+    top: 77%;
+}
+.compo .after{
+    width: 35%;
+    height: .5px;
+    background-color: gray;
+    position: absolute !important;
+    top: 77%;
+    right: 0;
+}
+@media (max-width:992px) {
+    .compo .befor , 
+    .compo .after{
+        display: none;
+    }
+}
+ .box .img-dad{
+    background-color: hsl(51.43deg 17.95% 92.35%);
+}
+.Feature .box h4{
+    color: hsl(48.84deg 20.57% 40.98%);
+}
+.Feature .row{
+    border-bottom: solid 1px gray;
+}
+.Feature button{
+    background-color: inherit;
+}
+.Feature .box .img-dad:before{
+    content: "ADD TO CART";
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    transition: .5s;
+    display: none;
+}
+.box:hover .img-dad:before{
+    display: block;
+}
+.border-small{
+    background-color: gray;
+    width: 100%;
+    height: 1px; 
+}
+@media (min-width:991px) {
+    .border-small{
+        display: none;
+    }
+}
+/* /////// */
+.best{
+    background-color:hsl(46.67deg 20% 91.18%);
+}
+.best h2{
+    font-size: 50px;
+}
+.best h2::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: hsl(46.09deg 42.33% 31.96%);
+    bottom: 0;
+    left: 0;
+}
+.img-dd{
+    height: fit-content ;
+    width: fit-content;
+}
+/* ////////// */
+.pop .active::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: hsl(46.09deg 42.33% 31.96%);
+    bottom: 0;
+    left: 0;
+}
+@media(max-width:574px) {
+    .pop ul li{
+        width: 40% !important;
+    }
+}
+/* ///////// */
+.sub{
+    background-color:hsl(46.67deg 20% 91.18%); 
+}
+.sub .p-dad{
+    border-bottom: solid 1px gray !important;
+}
+.sub h2::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: hsl(46.09deg 42.33% 31.96%);
+    bottom: -5px;
+    left: 13px;
+}
+@media(min-width:992px)
+{
+    .sub h2::after{
+        bottom: 0;
+        top: 64% !important;
+    }
+}
+/* //////// */
+.footer2 span{
+    color: hsl(28.93deg 38.89% 71.76%);
+}
