@@ -171,6 +171,10 @@ button{
         top: 64% !important;
     }
 }
+.sub form .email{
+    width: 100%;
+    background-color: inherit;
+}
 /* //////// */
 .footer2 span{
     color: hsl(28.93deg 38.89% 71.76%);
