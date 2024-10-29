@@ -12,7 +12,7 @@ button{
  nav{
     border-color:gray !important;
     background-color: rgb(243 242 236) !important;
-    position: sticky !important;
+    /* position: sticky !important; */
  }
  nav ul .active{
     color: rgb(220 184 160) !important;
